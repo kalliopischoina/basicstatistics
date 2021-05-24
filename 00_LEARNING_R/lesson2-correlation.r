@@ -24,3 +24,14 @@ sjt.corr(newiris)
 
 
 
+# improved correlation matrix
+library(corrplot)
+
+corrplot(cor(newiris),
+         method = "number",
+         type = "upper" # show only upper side
+)
+
+
+
+
