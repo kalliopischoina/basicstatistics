@@ -84,5 +84,7 @@ plot(result_aov, which = 1)
 summary(result_aov)
 
 
+library("report") # Load the package every time you start R
 
+report(result_aov)
 
